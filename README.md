@@ -1,2 +1,0 @@
-# StructuringUnitTests
-Structuring Unit Tests
