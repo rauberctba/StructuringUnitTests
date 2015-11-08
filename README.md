@@ -1,12 +1,7 @@
 Structuring Unit Tests
-
 ===
 
-
-
 ### C# + xUnit Sample
-
-
 
 A small sample of how I organize my unit tests. This is the same approach used by Phil Haack.
 
