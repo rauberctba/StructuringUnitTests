@@ -20,7 +20,7 @@ namespace StructuringUnitTests.Facts
             [Theory,
                 InlineData(1, "I"),
                 InlineData(100, "C")]
-            public void ReturnsIFor1(int input, string expected)
+            public void ReturnsExpectedForInput(int input, string expected)
             {
                 var converter = new RomanNumeralConverter();
                 var result = converter.ToRoman(input);
