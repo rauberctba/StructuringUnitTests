@@ -13,7 +13,7 @@ namespace StructuringUnitTests.Facts
                 var converter = new RomanNumeralConverter();
 
                 Assert.Throws<IndexOutOfRangeException>(
-                    () => converter.ToRoman(3001)
+                    () => converter.ToRoman(0)
                 );
             }
 
